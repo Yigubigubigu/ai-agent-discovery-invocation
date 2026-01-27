@@ -1,10 +1,9 @@
 ---
----
 title: "AI Agent Discovery and Invocation Protocol"
 abbrev: "AIDIP"
 category: info
 
-docname: draft-cui-ai-agent-discovery-invocation-01
+docname: draft-cui-ai-agent-discovery-invocation
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
@@ -13,15 +12,15 @@ v: 3
 area: IETF
 workgroup: Network Working Group
 keyword:
- - AI Agent
- - Service Discovery
+- AI Agent
+- Service Discovery
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+group: WG
+type: Working Group
+mail: WG@example.com
+arch: https://example.com/WG
+github: USER/REPO
+latest: https://example.com/LATEST
 
 author:
 - role:  # remove if not true
