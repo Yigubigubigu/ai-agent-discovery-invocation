@@ -2,8 +2,6 @@
 title: "AI Agent Discovery and Invocation Protocol"
 abbrev: "AIDIP"
 category: info
-ipr: trust200902
-
 
 docname: draft-cui-ai-agent-discovery-invocation
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
@@ -77,7 +75,7 @@ LangChain:
   author:
     - name: H. Chase
   date: 2023
-  url: https://www.langchain.com/
+  target: https://www.langchain.com/
 AutoGen:
   title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
   author:
@@ -85,7 +83,6 @@ AutoGen:
     - name: et al.
   date: 2023
   seriesinfo: arXiv:2308.08155
-  url: https://arxiv.org/abs/2308.08155
 RosenbergDraft:
   title: "AI Protocols"
   author:
@@ -112,7 +109,7 @@ The goal is to enable cross-platform interoperability among AI agents by providi
 
 As artificial intelligence technologies advance rapidly, AI agents—autonomous software components capable of perceiving their environment, reasoning, and taking actions to achieve goals—have emerged as a powerful paradigm for task execution. Today, many organizations develop specialized AI agents for various purposes: from text translation and summarization, to code generation, to data analysis and beyond. These agents are often offered as services, accessible over the network and may be integrated into larger systems. However, despite the proliferation of AI agents, there is currently no standard protocol for discovering available agents and invoking their capabilities in a uniform way.
 
-Existing agent frameworks and platforms (e.g., LangChain {{LangChain}}, AutoGen {{AutoGen}}) facilitate building agents but typically operate in isolated ecosystems, making cross-platform or cross-organization agent interoperability difficult. Each platform tends to define its own APIs for agent description and invocation, which means a client wishing to use agents from multiple sources must adapt to disparate interfaces. This lack of standardization creates friction, increases integration costs, and hampers the development of multi-agent collaborative systems.
+Existing agent frameworks and platforms facilitate building agents but typically operate in isolated ecosystems, making cross-platform or cross-organization agent interoperability difficult. Each platform tends to define its own APIs for agent description and invocation, which means a client wishing to use agents from multiple sources must adapt to disparate interfaces. This lack of standardization creates friction, increases integration costs, and hampers the development of multi-agent collaborative systems.
 
 This document addresses these issues by proposing a standardized AI Agent Discovery and Invocation Protocol. The protocol provides:
 
