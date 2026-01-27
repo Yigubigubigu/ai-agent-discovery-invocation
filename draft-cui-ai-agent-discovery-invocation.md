@@ -2,6 +2,8 @@
 title: "AI Agent Discovery and Invocation Protocol"
 abbrev: "AIDIP"
 category: info
+ipr: trust200902
+
 
 docname: draft-cui-ai-agent-discovery-invocation
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
@@ -75,7 +77,7 @@ LangChain:
   author:
     - name: H. Chase
   date: 2023
-  target: https://www.langchain.com/
+  url: https://www.langchain.com/
 AutoGen:
   title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
   author:
@@ -83,6 +85,7 @@ AutoGen:
     - name: et al.
   date: 2023
   seriesinfo: arXiv:2308.08155
+  url: https://arxiv.org/abs/2308.08155
 RosenbergDraft:
   title: "AI Protocols"
   author:
@@ -506,6 +509,7 @@ This document has no IANA actions.
 
 --- back
 
-# Acknowledgments
+# Acknowledgments {numbered="false"}
+
 
 TODO acknowledge.
