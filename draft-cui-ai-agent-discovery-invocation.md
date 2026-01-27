@@ -1,5 +1,4 @@
 ---
----
 title: "AI Agent Discovery and Invocation Protocol"
 abbrev: "AIDIP"
 category: info
@@ -92,7 +91,6 @@ RosenbergDraft:
   seriesinfo: draft-rosenberg-ai-protocols-00
 
 ...
-
 
 
 --- abstract
