@@ -1,4 +1,5 @@
 ---
+---
 title: "AI Agent Discovery and Invocation Protocol"
 abbrev: "AIDIP"
 category: info
@@ -12,15 +13,15 @@ v: 3
 area: IETF
 workgroup: Network Working Group
 keyword:
-- AI Agent
-- Service Discovery
+ - AI Agent
+ - Service Discovery
 venue:
-group: WG
-type: Working Group
-mail: WG@example.com
-arch: https://example.com/WG
-github: USER/REPO
-latest: https://example.com/LATEST
+  group: WG
+  type: Working Group
+  mail: WG@example.com
+  arch: https://example.com/WG
+  github: USER/REPO
+  latest: https://example.com/LATEST
 
 author:
 - role:  # remove if not true
@@ -32,7 +33,7 @@ author:
   region: Beijing # not always available
   code: 100084
   country: China # use TLD (except UK) or country name
-  phone: 
+  phone:
   email: cuiyong@tsinghua.edu.cn
   uri: http://www.cuiyong.net/
 - role: # remove if not true
@@ -40,7 +41,7 @@ author:
   name: Yihan Chao
   org: Zhongguancun Laboratory
   street:
-  city: 
+  city:
   region: Beijing # not always available
   code: 100094
   country: China # use TLD (except UK) or country name
@@ -50,11 +51,11 @@ author:
   name: Chenguang Du
   org: Zhongguancun Laboratory
   street:
-  city: 
+  city:
   region: Beijing # not always available
   code: 100094
   country: China # use TLD (except UK) or country name
-  phone: 
+  phone:
   email: ducg@zgclab.edu.cn
 
 normative:
@@ -511,4 +512,4 @@ This document has no IANA actions.
 
 {:numbered="false"}
 
-TODO acknowledge. 
+TODO acknowledge.
